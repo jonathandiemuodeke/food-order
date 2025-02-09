@@ -1,0 +1,495 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* 
+    Author: Vijay Thapa;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  font-family: var(--ff-secondary);
+  background: var(--clr-grey-10) hsl(210, 36%, 96%);
+  color: hsl(205, 86%, 17%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  overflow-x: hidden;
+}
+.margin-left {
+  margin-left: 10px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+.img-responsive {
+  width: 100%;
+}
+.img-curve {
+  border-radius: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-white {
+  color: white;
+}
+.error {
+  padding: 20px;
+  color: red;
+}
+.success {
+  padding: 20px;
+  color: green;
+  font-weight: 700;
+  font-size: 20px;
+  -webkit-transition: all 0.7s linear;
+  -o-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  /* color: #ff6b81; */
+  color: #6b8270;
+  text-decoration: none;
+}
+a:hover {
+  color: #515e54;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn-primary {
+  /* background-color: #ff6b81; */
+  background-color: #6b8270;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  transition: background 0.6s linear;
+}
+.btn-full {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #779f7f;
+}
+h2 {
+  color: #2f3542;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset {
+  border: 1px solid white;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+/* .display-none{
+    display: none;
+} */
+
+/* CSSS for navbar section */
+
+.logo {
+  width: 10%;
+  float: left;
+}
+.menu {
+  line-height: 60px;
+}
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+.main-content {
+  width: 100vw;
+  border: 2px solid blue;
+  padding: 20px 30px;
+}
+/* FOOTER */
+
+.footer-fixed {
+  width: 80vw;
+  padding-right: 2rem;
+  margin: 0 auto;
+  background: rgba(221, 132, 132, 0.205);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.food-name {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #2f3542;
+  font-weight: bold;
+}
+.banga {
+  font-weight: 800;
+}
+.jollof {
+  font-weight: 800;
+}
+.fried {
+  font-weight: 800;
+}
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.social-media ul li,
+.quick-link ul li {
+  margin-top: 8px;
+}
+
+.footer-wrapper .quick-link a {
+  font-weight: 300;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.7s linear;
+  -o-transition: all 0.7s linear;
+  transition: all 0.7s linear;
+}
+
+.footer-wrapper .quick-link a:hover {
+  margin-left: 10px;
+  color: chocolate;
+}
+
+.footer-copyright {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* CSS for Food SEarch Section */
+
+.food-search {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.food-search input[type='search'] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* CSS for Categories */
+.categories {
+  padding: 4% 0;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+/* CSS for Food Menu */
+.food-menu {
+  background-color: #ececec;
+  padding: 4% 0;
+}
+.food-menu-box {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.food-menu-img {
+  width: 100%;
+  /* float: left; */
+}
+
+.food-menu-desc {
+  width: 100%;
+  /* float: left; */
+  /* margin-left: 8%; */
+}
+
+.food-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+.food-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
+
+/* CSS for Social */
+.social ul {
+  list-style-type: none;
+}
+.social ul li {
+  display: inline;
+  padding: 1%;
+}
+
+/* for Order Section */
+.order {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-responsive {
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.order-label {
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+/* LOGIN FORM DESIGN */
+.form-div {
+  min-height: 300px;
+  margin-bottom: 20px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.form-div p {
+  margin-bottom: 0.8rem;
+}
+
+#login-form {
+  border: 2px solid red;
+  background-color: bisque;
+  min-height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  /* align-items: center; */
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+#login-form div {
+  /* width: 80%; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+#login-form input {
+  padding: 5px 5px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+#login-form input,
+label,
+p,
+a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#login-form p {
+  color: sienna;
+}
+
+#login-form label {
+  margin-right: 5px;
+  color: sienna;
+}
+
+.wrapper > h1 {
+  color: (1, 49, 1);
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-login {
+  padding: 5px 5px !important;
+  color: white;
+  background-color: orangered;
+  font-weight: 700;
+  /* min-width: 2rem; */
+  /* width: 50%; */
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 0px solid grey;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 2px 3px 3px sienna;
+  box-shadow: 2px 3px 3px sienna;
+  -webkit-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+.btn-login:hover {
+  background-color: rgb(1, 49, 1);
+}
+.register {
+  -ms-grid-column-align: right;
+  justify-self: right;
+  color: green;
+}
+
+/* LOGIN FORM DESING ENDS */
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    float: none;
+    margin: 1% auto;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .food-search input[type='search'] {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+
+  .btn {
+    width: 91%;
+    padding: 2%;
+  }
+
+  .food-search {
+    padding: 10% 0;
+  }
+
+  .categories {
+    padding: 20% 0;
+  }
+  h2 {
+    margin-bottom: 10%;
+  }
+  .box-3 {
+    width: 100%;
+    margin: 4% auto;
+  }
+
+  .food-menu {
+    /* width: 100%;
+    margin: 0 auto; */
+    padding: 20% 0;
+  }
+
+  .food-menu-box {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+  .social {
+    padding: 5% 0;
+  }
+  .order {
+    width: 100%;
+  }
+  /* login form */
+  #login-form {
+    width: 100%;
+  }
+  .form-div {
+    width: 80%;
+    margin: 0 auto;
+  }
+  /* login form */
+}
+@media screen and (min-width: 768px) {
+  .food-menu-box {
+    min-height: 568px;
+  }
+  .btn-primary {
+    width: 50%;
+  }
+}
